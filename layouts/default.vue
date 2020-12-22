@@ -144,6 +144,18 @@ export default {
       clipped: true,
       drawer: false,
       items: [
+      {
+          icon: 'mdi-chart-bubble',
+          title: 'Pályazatok',
+          to: '#',
+          subLinks : [
+            {
+                text : 'MFP',
+                to    : '/palyazatok/mfphor2019',
+                icon  : 'mdi-view-list'
+            }
+        ]
+        },
         {
           icon: 'mdi-apps',
           title: 'Császló',
